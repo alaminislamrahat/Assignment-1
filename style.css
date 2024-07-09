@@ -285,6 +285,11 @@ p {
     background-size: cover;
     background-position: center;
     padding: 50px 50px;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
 
     max-width: 1300px;
     margin: 0 auto;
@@ -307,6 +312,37 @@ p {
     font-size: 16px;
     font-weight: 400;
     line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.search input {
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 8px;
+
+    background: rgb(255, 255, 255);
+    padding: 19px 20px 19px 20px;
+    width: 548px;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.search button {
+    border-radius: 8px;
+
+    background: rgb(255, 255, 255);
+    padding: 17px 20px 17px 20px;
+    width: 120px;
+    height: 58px;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
     letter-spacing: 0%;
     text-align: center;
 }
