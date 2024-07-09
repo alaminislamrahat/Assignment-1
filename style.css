@@ -121,6 +121,7 @@ body {
     border: 1px solid rgb(13, 19, 33);
     opacity: 0.7;
     padding: 12px 20px 12px 20px;
+    cursor: pointer;
 }
 
 .inner-content h2,
@@ -361,6 +362,7 @@ p {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 40px;
 }
 
 .footer-content h1 {
@@ -371,10 +373,13 @@ p {
     line-height: 23px;
     letter-spacing: 0%;
     text-align: center;
-    
+
 }
 
-.footer-img{
+.footer-img {
     display: flex;
-   
+    gap: 20px;
+    align-items: center;
+
+
 }
